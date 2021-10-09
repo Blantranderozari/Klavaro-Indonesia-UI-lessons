@@ -20,6 +20,7 @@ $ sudo ldconfig
 ```
 
 Unduh source file ke home directory anda dengan menggunakan perintah ini:
+
 `$ git clone https://github.com/Blantranderozari/Klavaro-Indonesia-Translation.git`
 
 Untuk menginstalasi program .
