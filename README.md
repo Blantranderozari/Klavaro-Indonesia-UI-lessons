@@ -25,6 +25,7 @@ Unduh source file ke home directory anda dengan menggunakan perintah ini:
 
 Untuk menginstalasi program .
 ```
+$ cd Klavaro-Indonesia-Translation
 $ ./configure
 $ make
 $ sudo make install
