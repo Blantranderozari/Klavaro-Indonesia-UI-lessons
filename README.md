@@ -33,15 +33,21 @@ Sebaliknya bila versi yang akan diinstall sudah lebih besar atau sama dengan 1.0
 `$ sudo ldconfig`
 
 Perintah-perintah berikut ini berlaku apabila versi yang diinstal < 1.0.0
-* Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download
-* 
+Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download
+Ekstrak file yang baru didownload _gtkdatabox-1.0.0.tar.gz_ dengan perintah berikut
+`$ tar xzvf gtkdatabox-1.0.0.tar.gz`
 
+dan instal libgtkdatabox dengan perintah-perintah berikut:
+```
+$ cd gtkdatabox-1.0.0/
+$ ./configure
+$ make
+$ sudo make install
+$ sudo ldconfig
+```
+ 
 
-
-Klavaro memerlukan libgtkdatabox dengan versi minimal 1.0
-
-
-
+## Instalasi Klavaro
 
 Unduh source file ke home directory anda dengan menggunakan perintah ini:
 
