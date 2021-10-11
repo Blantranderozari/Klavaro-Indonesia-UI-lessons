@@ -4,6 +4,9 @@ Program berlatih mengetik
 For **English** version of this README.md see _README.en.md_
 
 Klavaro adalah aplikasi untuk berlatih ketrampilan mengetik dan ini adalah versi bahasa Indonesianya. Saat ini hanya baru ada versi Linux dan terbukti bisa berjalan di Ubuntu versi 18.04 (_Bionic Beaver_)
+
+## Instalasi library-library yang diperlukan
+
 Sebelum menginstalasi program ini periksa apakah library-library berikut sudah ada di komputer anda dengan menjalankan perintah berikut di terminal
 ```
 $ sudo apt update
@@ -13,22 +16,32 @@ $ sudo apt install intltool
 $ sudo apt install libtool
 ```
 
-Sementara untuk GtkDatabox (https://gtkdatabox.sourceforge.io/)
-Periksa terlebih dahulu versi libgtkdatabox yang ada di repositori ubuntu dengan perintah berikut:
-`
-$ sudo apt install libgtkdatabox-dev
-`
+## Instalasi library GtkBox
+
+Sementara untuk GtkDatabox (https://gtkdatabox.sourceforge.io/), anda harus memastikan terlebih dahulu bahwa versi yang akan diinstal minimal versi 1.0.0
+Untuk itu periksa versi libgtkdatabox yang ada di repositori ubuntu dengan perintah berikut:
+
+`$ sudo apt install libgtkdatabox-dev`
+
 dan perhatikan baris berikut
+
 ![image](https://user-images.githubusercontent.com/35718731/136726892-c3629aff-09df-470b-b21d-0c8a8b03529f.png)
 
+Karena versi yang akan diinstall adalah 0.9.2-0 (< 1.0.0) maka kita perlu mengkompilasi library gtkdatabox langsung dari _source file_-nya.
+Sebaliknya bila versi yang akan diinstall sudah lebih besar atau sama dengan 1.0.0, anda cukup melanjutkan dengan menjawab dengan *Y(Yes)* dan apabila instalasi sudah tuntas lanjutkan dengan perintah berikut:
+
+`$ sudo ldconfig`
+
+Perintah-perintah berikut ini berlaku apabila versi yang diinstal < 1.0.0
+* Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download
+* 
 
 
 
 Klavaro memerlukan libgtkdatabox dengan versi minimal 1.0
 
 
-$ sudo ldconfig
-```
+
 
 Unduh source file ke home directory anda dengan menggunakan perintah ini:
 
