@@ -13,9 +13,20 @@ $ sudo apt install intltool
 $ sudo apt install libtool
 ```
 
-Sementara untuk GtkDatabox (https://gtkdatabox.sourceforge.io/):
-```
+Sementara untuk GtkDatabox (https://gtkdatabox.sourceforge.io/)
+Periksa terlebih dahulu versi libgtkdatabox yang ada di repositori ubuntu dengan perintah berikut:
+`
 $ sudo apt install libgtkdatabox-dev
+`
+dan perhatikan baris berikut
+![image](https://user-images.githubusercontent.com/35718731/136726892-c3629aff-09df-470b-b21d-0c8a8b03529f.png)
+
+
+
+
+Klavaro memerlukan libgtkdatabox dengan versi minimal 1.0
+
+
 $ sudo ldconfig
 ```
 
