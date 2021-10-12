@@ -16,23 +16,32 @@ $ sudo apt install intltool
 $ sudo apt install libtool
 ```
 
-## Instalasi library GtkBox
+## Instalasi library gtkdatabox
 
-Sementara untuk GtkDatabox (https://gtkdatabox.sourceforge.io/), anda harus memastikan terlebih dahulu bahwa versi yang akan diinstal minimal versi 1.0.0
-Untuk itu periksa versi libgtkdatabox yang ada di repositori ubuntu dengan perintah berikut:
+Sementara untuk libgtkdatabox (https://gtkdatabox.sourceforge.io/), anda harus memastikan terlebih dahulu apakah library tersebut sudah terinstal  atau belum dan versinya masing-masing. Perlu dicatat bahwa versi terendah yang diperlukan adalah libgtkdatabox versi 1.0.0
+Untuk itu gunakan perintah berikut:
 
-`$ sudo apt install libgtkdatabox-dev`
+`$ sudo apt-cache policy libgtkdatabox-dev`
 
 dan perhatikan baris berikut
 
-![image](https://user-images.githubusercontent.com/35718731/136726892-c3629aff-09df-470b-b21d-0c8a8b03529f.png)
+![image](https://user-images.githubusercontent.com/35718731/136917081-148f2a8b-945e-46b3-be81-8b7bd6638e5c.png)
 
-Karena versi yang akan diinstall adalah 0.9.2-0 (< 1.0.0) maka kita perlu mengkompilasi library gtkdatabox langsung dari _source file_-nya.
-Sebaliknya bila versi yang akan diinstall sudah lebih besar atau sama dengan 1.0.0, anda cukup melanjutkan dengan menjawab dengan *Y (Yes)* dan apabila instalasi sudah tuntas lanjutkan dengan perintah berikut:
+**Installed : (None)** artinya libgtkdatabox-dev belum terinstal di komputer anda
 
-`$ sudo ldconfig`
+**Candidate: 1:0.9.3.1-1** artinya hanya ada 1 kandidat yang akan diinstal dengan versi 0.9.3.1-1
 
-Perintah-perintah berikut ini berlaku apabila versi yang diinstal < 1.0.0. Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download. Ekstrak file yang baru didownload _gtkdatabox-1.0.0.tar.gz_ dengan perintah berikut
+Karena versi yang akan diinstall adalah 0.9.3.1-1 lebih rendah dari versi yang disyaratkan (1.0.0) maka kita perlu mengkompilasi library gtkdatabox langsung dari _source file_-nya.
+Sebaliknya bila versi yang akan diinstall sudah lebih besar atau sama dengan 1.0.0, anda cukup melanjutkan dengan perintah berikut:
+
+```
+$ sudo apt install libgtkdatabox-dev
+$ sudo ldconfig
+```
+
+Perintah-perintah berikut ini berlaku apabila versi yang diinstal < 1.0.0. 
+
+Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download. Ekstrak file yang baru didownload _gtkdatabox-1.0.0.tar.gz_ dengan perintah berikut
 
 `$ tar xzvf gtkdatabox-1.0.0.tar.gz`
 
