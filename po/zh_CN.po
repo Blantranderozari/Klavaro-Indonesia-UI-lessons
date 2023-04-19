@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2011-03-31 14:17+0800\n"
 "Last-Translator: Yuwei Yu <acevery@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -534,11 +534,11 @@ msgid "Score"
 msgstr "得分"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "en"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -548,7 +548,7 @@ msgstr ""
 "    基础课程专注于使你根据显示在屏幕上的字母按下相应的按键。记住要保持你的手"
 "总是正确地放在键盘的本行上(见主菜单中的介绍)。"
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -557,7 +557,7 @@ msgstr ""
 "    每个系列使用的按键会在上方的消息行中显示。[空格]、[Shift]和[回车]键可能不"
 "会显示，但它们很常用。"
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -565,7 +565,7 @@ msgstr ""
 "    下方的消息行跟随并显示你按下的键。需要的时候，它会改变为显示你需要采取的"
 "下一步行动。"
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -574,7 +574,7 @@ msgstr ""
 "    这里你将练习并改进你对所有键位的记忆，通过一些由没有意义的词组成的，并混"
 "杂着数字和符号的句子。"
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -583,13 +583,13 @@ msgstr ""
 "    为了保持课程内容独立于语言和键盘，带有音调的字母组合可能不会出现。练习由"
 "真实词语组成的句子，请使用主菜单中的第四个练习(关于流畅性的)。"
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
 msgstr "    在每个练习后会有一个简要的统计检查你的表现并提供相应的建议。"
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -597,7 +597,7 @@ msgstr ""
 "    这个练习和第二个练习(关于适应性的)非常相似。不同的是，这里你会输入真正的"
 "单词。"
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -606,7 +606,7 @@ msgstr ""
 "    默认语言是界面的语言。但你可以选择你喜欢的含有其他字词的文本。按下上方"
 "的'其它'按钮并添加包含这些文本的文件。"
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -614,7 +614,7 @@ msgstr ""
 "    这个练习专注于速度。所以，你将被假定为打得非常快，而我也只会在你足够好时"
 "才会夸你！"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -625,7 +625,7 @@ msgstr ""
 "可能会分散你的注意力。之前的练习目标是使你在不需要理解和分析内容的情况下学会"
 "打字。"
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -639,7 +639,7 @@ msgstr ""
 "就会自然而然且不需要什么注意力。这时，你就可以轻松把注意力放到文字的意思上"
 "了。"
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -959,18 +959,18 @@ msgstr ""
 msgid "Date & Time"
 msgstr "日期和时间"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "看起来你已经学会了键位！"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -982,7 +982,7 @@ msgstr ""
 "    进到下一个类型的练习：适应性。\n"
 "    那里，你将会主要练习精确性。\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

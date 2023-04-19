@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2012-05-10 18:46-0500\n"
 "Last-Translator: Francisco Javier P.L. <chilicuil@ubuntu.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -547,11 +547,11 @@ msgid "Score"
 msgstr "Puntuación"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "es"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -563,7 +563,7 @@ msgstr ""
 "orientadas en la fila guía (vea cómo hacerlo en la introducción del menú "
 "principal)."
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -573,7 +573,7 @@ msgstr ""
 "ventana. Puede que las teclas [Espacio], [Mayúsculas] e [Intro] no "
 "aparezcan, pero se usan muy a menudo."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -581,7 +581,7 @@ msgstr ""
 "El texto de la línea inferior repite las teclas que usted pulsa y si es "
 "necesario, muestra las teclas que debe presionar."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -590,7 +590,7 @@ msgstr ""
 "Aquí puede practicar y mejorar su memorización de las teclas. Habrá frases "
 "formadas por palabras sin sentido, con números y símbolos."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -600,7 +600,7 @@ msgstr ""
 "probable que no aparezcan combinaciones de letras acentuadas. Para practicar "
 "con frases reales, use la cuarta opción del menú principal (fluidez)."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -608,7 +608,7 @@ msgstr ""
 "Tras cada ejercicio aparecerá un sencillo panel de estadísticas con un "
 "análisis de su rendimiento, junto a algunos comentarios relevantes."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -616,7 +616,7 @@ msgstr ""
 "Este ejercicio es similar al segundo (sobre adaptabilidad). La diferencia es "
 "que aquí practicará con palabras reales."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -626,7 +626,7 @@ msgstr ""
 "otro texto que quiera utilizar. Haga click en la opción \"Otros textos\" en "
 "la parte superior de la ventana, y añada el archivo que contiene el texto."
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -634,7 +634,7 @@ msgstr ""
 "Este ejercicio se centra en la velocidad. Su objetivo es escribir muy "
 "rápido, ¡y sólo le felicitaré si en verdad se lo gana!"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -646,7 +646,7 @@ msgstr ""
 "pretendían conseguir que se centrase usted en teclear, sin interpretar ni "
 "analizar el contenido."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -662,7 +662,7 @@ msgstr ""
 "concentración. Entonces podrá centrarse en el auténtico significado del "
 "texto."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -997,18 +997,18 @@ msgstr "Letra"
 msgid "Date & Time"
 msgstr "Fecha y Hora"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "¡Parece que ha aprendido la posición de las teclas!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1020,7 +1020,7 @@ msgstr ""
 " Vaya al siguiente curso: adaptabilidad.\n"
 " En él practicará sobre todo la precisión.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

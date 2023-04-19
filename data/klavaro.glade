@@ -24,6 +24,10 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
   <!-- interface-license-type gplv3 -->
   <!-- interface-name Klavaro -->
   <!-- interface-description A touch typing tutor -->
+  <object class="GtkMenu">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+  </object>
   <object class="GtkAdjustment" id="adjustment_h_tutor">
     <property name="upper">100</property>
     <property name="step-increment">1</property>
@@ -37,6 +41,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
     <property name="page-increment">5</property>
   </object>
   <object class="GtkAdjustment" id="adjustment_stat_lesson">
+    <property name="lower">1</property>
     <property name="upper">256</property>
     <property name="value">1</property>
     <property name="step-increment">1</property>
@@ -311,7 +316,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image24">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-delete</property>
+                        <property name="icon-name">edit-delete</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -359,7 +364,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image26">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-cancel</property>
+                        <property name="icon-name">cancel</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -708,7 +713,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                     <property name="can-default">True</property>
                     <property name="has-default">True</property>
                     <property name="tooltip-text" translatable="yes">Drag and drop text here to practice with it.</property>
-                    <property name="secondary-icon-name">gtk-clear</property>
+                    <property name="secondary-icon-name">edit-clear</property>
                     <property name="secondary-icon-tooltip-text" translatable="yes">Press here to restart the exercise. Hotkey: [Ctrl-R]</property>
                     <property name="secondary-icon-tooltip-markup" translatable="yes">Press here to restart the exercise. Hotkey: [Ctrl-R]</property>
                     <signal name="activate" handler="on_entry_mesg_activate" after="yes" swapped="no"/>
@@ -1232,7 +1237,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image27">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-delete</property>
+                        <property name="icon-name">edit-delete</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -1352,7 +1357,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image23">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-open</property>
+                        <property name="icon-name">document-open</property>
                       </object>
                       <packing>
                         <property name="expand">True</property>
@@ -1510,7 +1515,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image11">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-open</property>
+                        <property name="icon-name">document-open</property>
                         <property name="icon_size">2</property>
                       </object>
                       <packing>
@@ -1557,7 +1562,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image6">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-paste</property>
+                        <property name="icon-name">edit-paste</property>
                         <property name="icon_size">2</property>
                       </object>
                       <packing>
@@ -1604,7 +1609,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image19">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-delete</property>
+                        <property name="icon-name">edit-delete</property>
                         <property name="icon_size">2</property>
                       </object>
                       <packing>
@@ -2051,7 +2056,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image14">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-delete</property>
+                        <property name="icon-name">edit-delete</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -2134,7 +2139,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                 <property name="use-underline">True</property>
               </object>
               <packing>
-                <property name="x">58</property>
+                <property name="x">62</property>
                 <property name="y">140</property>
               </packing>
             </child>
@@ -2149,7 +2154,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                 <property name="use-underline">True</property>
               </object>
               <packing>
-                <property name="x">100</property>
+                <property name="x">102</property>
                 <property name="y">140</property>
               </packing>
             </child>
@@ -2343,7 +2348,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                   <object class="GtkImage" id="image3">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="icon-name">gtk-media-rewind</property>
+                    <property name="icon-name">media-seek-backward</property>
                     <property name="icon_size">1</property>
                   </object>
                 </child>
@@ -2469,7 +2474,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image18">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-go-forward</property>
+                        <property name="icon-name">go-next</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -2577,7 +2582,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image13">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-save</property>
+                        <property name="icon-name">document-save</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -2825,7 +2830,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image_basic">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-strikethrough</property>
+                        <property name="icon-name">format-text-strikethrough</property>
                         <property name="icon_size">6</property>
                       </object>
                       <packing>
@@ -2901,7 +2906,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image_adapt">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-bold</property>
+                        <property name="icon-name">format-text-bold</property>
                         <property name="icon_size">6</property>
                       </object>
                       <packing>
@@ -3630,7 +3635,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image_top10_publish">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-goto-top</property>
+                        <property name="icon-name">go-top</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>
@@ -3678,7 +3683,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
                       <object class="GtkImage" id="image_top10_update">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="icon-name">gtk-goto-bottom</property>
+                        <property name="icon-name">go-bottom</property>
                       </object>
                       <packing>
                         <property name="expand">False</property>

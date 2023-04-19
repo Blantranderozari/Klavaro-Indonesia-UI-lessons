@@ -1,3 +1,20 @@
+2022-12-13  Felipe Castro (-) <fefcas.at.gmail.com>;
+	* Release 3.14
+	* Changed:
+	- appdata ==> metainfo for desktop stuff.
+	- Non-deprecated replacements for icon names.
+	* Fixed:
+	- Progress chart for basic module showing lesson 0 as lesson 1.
+	- Spell correction: editting ==> editing.
+	- Semicolon at end of keyword entries in klavaro.desktop.in.
+	- Memory leak on trans_lang_get_similar function.
+	* Added:
+	- Hindi support.
+	- Indonesian translation.
+	* Updated translations:
+	- Croatian.
+	- Romenian.
+
 2021-06-06  Felipe Castro (-) <fefcas.at.gmail.com>;
 	* Release 3.13
 	* Fixed:

@@ -42,15 +42,17 @@
 "Esperanto (eo) [dvorak_eo_eurokeys]\n" \
 "Español (es) [qwerty_es]\n" \
 "Euskara (eu) [qwerty_es]\n" \
+"Suomen kieli (fi) [qwerty_se]\n"\
 "Français (fr) [azerty_fr]\n" \
 "Galego (gl) [qwerty_es]\n" \
+"Hindi (hi) [hindi_in_kruti]\n" \
 "Hrvatski (hr) [qwertz_hr]\n" \
+"Magyar (hu) [qwertz_hu]\n" \
 "Bahasa Indonesia (id) [qwerty_us]\n" \
 "Italiano (it) [qwerty_it]\n" \
 "Қазақ (kk) [jtsuken_kk]\n" \
 "한국어 (ko) [dubeolsik_kr]\n" \
 "Кыргызча (ky) [jtsuken_ru]\n" \
-"Magyar (hu) [qwertz_hu]\n" \
 "Bokmål (nb) [qwerty_no]\n" \
 "Nederlands (nl) [qwerty_us]\n" \
 "ਪੰਜਾਬੀ (pa) [gumurkhi_in_jehlum]\n" \
@@ -58,7 +60,6 @@
 "Português BR (pt_BR) [qwerty_br_abnt2]\n" \
 "Português PT (pt_PT) [qwerty_pt]\n" \
 "Русский (ru) [jtsuken_ru]\n" \
-"Suomen kieli (fi) [qwerty_se]\n"\
 "Slovenščina (sl) [qwertz_si]\n" \
 "Српски (sr) [qwertz_rs]\n" \
 "Svenska (sv) [qwerty_se]\n" \

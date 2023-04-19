@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.10\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2020-10-20 10:12-0300\n"
 "Last-Translator: Kıvanç Yazan <kivancyazan@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -536,11 +536,11 @@ msgid "Score"
 msgstr "Skor"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "tr"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -551,7 +551,7 @@ msgstr ""
 "odaklanır. Ellerinizi bütün alıştırma boyunca ana sırada doğru bir şekilde "
 "tutmayı unutmayın (ana menüdeki giriş modülüne bakabilirsiniz.)"
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -561,7 +561,7 @@ msgstr ""
 "[Boşluk], [Üstkarakter] ve [Giriş] tuşları görünmeyebilir, ama çok sık "
 "kulllanılır."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -569,7 +569,7 @@ msgstr ""
 "Aşağıdaki mesaj satırı ise sizin tuşlarınızı takip edip tekrarlar. Gerekirse "
 "değişerek sizin almanız gereken aksiyonları gösterir."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -579,7 +579,7 @@ msgstr ""
 "kelimeler, sayılar ve semboller birleştirilerek oluşturulmuş cümleler size "
 "sunulacak."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -589,7 +589,7 @@ msgstr ""
 "burada büyük ihtimalle çıkmayacak. Gerçek kelimelerden oluşmuş cümleler için "
 "lütfen ana menüden 4. seçeneği (akıcılık) kullanın."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -597,7 +597,7 @@ msgstr ""
 "Her alıştırmadan sonra performansınızı ve bazı yorumları içeren bir "
 "istatistik paneli ekrana gelecektir."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -605,7 +605,7 @@ msgstr ""
 "Bu 2. alıştırmaya (uyumluluk) çok benzer. Buradaki farklı olarak gerçek "
 "kelimeler yazacaksınız."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -615,7 +615,7 @@ msgstr ""
 "metni de kullanabilirsiniz. Yukarıdaki 'Diğer' seçeneğini tıklayın ve  "
 "metinlerinizi içeren dosyaları ekleyin."
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -623,7 +623,7 @@ msgstr ""
 "Bu alıştırmanın temeli hız. Yani gerçekten hızlı yazman gerekiyor. Ben "
 "sadece gerçekten hak ederseniz övgü dolu mesajlar paylaşacağım!"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -635,7 +635,7 @@ msgstr ""
 "alıştırmalarda yorumlama yapmamanız ve içeriği analiz etmemeniz için bir "
 "çaba gösterdik."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -651,7 +651,7 @@ msgstr ""
 "gerektiren bir iş haline gelecek. Ondan sonra metnin gerçek anlamıyla "
 "ilgilenebileceksiniz."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -989,7 +989,7 @@ msgstr "Karakter"
 msgid "Date & Time"
 msgstr "Tarih & Saat"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -998,11 +998,11 @@ msgstr ""
 "Bu özel ders boş. İki veya daha fazla karakter ile kişisel bir alıştırma "
 "oluşturabilirsin. Sağ üstteki düzenle düğmesine tıklayın."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Tuşların yerlerinin öğrenildiği görülüyor!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1014,7 +1014,7 @@ msgstr ""
 " Sıradaki alıştırma türüne geçebilirsin: uyumluluk.\n"
 " Orada genel olarak doğruluk oranını çalışacaksın.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

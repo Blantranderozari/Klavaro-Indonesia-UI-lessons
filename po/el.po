@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.12\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2021-04-23 17:23+0300\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -557,11 +557,11 @@ msgid "Score"
 msgstr "Βαθμολογία"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "el"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -574,7 +574,7 @@ msgstr ""
 "τοποθετημένα στην βασική γραμμή του πληκτρολογίου (δείτε την εισαγωγή στο "
 "κύριο μενού)."
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -584,7 +584,7 @@ msgstr ""
 "χρησιμοποιούνται σε κάθε ομάδα. Τα πλήκτρα [Διάστημα], [Shift] και [Enter] "
 "μπορεί να μην εμφανίζονται αλλά χρησιμοποιούνται πολύ συχνά."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -593,7 +593,7 @@ msgstr ""
 "Επίσης, αν απαιτείται, προβάλλονται οδηγίες για ενέργειες που χρειάζονται "
 "από εσάς."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -603,7 +603,7 @@ msgstr ""
 "πλήκτρων. Θα παρουσιαστούν προτάσεις με λέξεις χωρίς νόημα που αναμιγνύουν "
 "μερικούς αριθμούς και σύμβολα."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -615,7 +615,7 @@ msgstr ""
 "χρησιμοποιήστε την τέταρτη επιλογή του κυρίως μενού (σχετικά με την "
 "ρευστότητα)."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -623,7 +623,7 @@ msgstr ""
 "Μετά από κάθε άσκηση θα υπάρχει ένας σύντομος πίνακας στατιστικών με κριτική "
 "της απόδοσης σας μαζί με κάποια σχετικά σχόλια."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -631,7 +631,7 @@ msgstr ""
 "Αυτή η άσκηση είναι πολύ όμοια με την δεύτερη, για προσαρμοστικότητα. Η "
 "διαφορά είναι ότι εδώ θα πληκτρολογείτε πραγματικές λέξεις."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -642,7 +642,7 @@ msgstr ""
 "Πατήστε την επιλογή 'Άλλα' πάνω και προσθέστε τα αρχεία που περιέχουν αυτά "
 "τα κείμενα."
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -650,7 +650,7 @@ msgstr ""
 "Με αυτή την άσκηση η εστίαση είναι στην ταχύτητα. Έτσι, θα προσπαθήσετε να "
 "πληκτρολογείτε πραγματικά γρήγορα και θα επαινείστε όταν το αξίζετε!"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -663,7 +663,7 @@ msgstr ""
 "στο να σας κάνουν να πληκτρολογείτε χωρίς να μεταφράζετε και να αναλύετε το "
 "περιεχόμενο."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -679,7 +679,7 @@ msgstr ""
 "πληκτρολόγησης θα γίνει αυτόματη και θα χρειάζεται λίγη συγκέντρωση. Τότε θα "
 "μπορείτε να δώσετε σημασία στο πραγματικό νόημα του κειμένου."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1028,7 +1028,7 @@ msgstr "Χαρακτήρας"
 msgid "Date & Time"
 msgstr "Ημερομηνία και ώρα"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1038,11 +1038,11 @@ msgstr ""
 "περισσότερους διαφορετικούς χαρακτήρες για να δημιουργήσετε μία προσωπική "
 "άσκηση. Πατήστε το κουμπί επεξεργασίας στην επάνω δεξιά γωνία."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Θέσεις πλήκτρων που μάλλον μάθατε!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1054,7 +1054,7 @@ msgstr ""
 "Πηγαίνετε στον επόμενο τύπο άσκησης: προσαρμοστικότητα.\n"
 "Εκεί θα εξασκηθείτε κυρίως στην ακρίβεια.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

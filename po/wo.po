@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Dominique Rochefort <dominique@orisma.ca>\n"
 "Language-Team: Wolof <wo@li.org>\n"
@@ -544,11 +544,11 @@ msgid "Score"
 msgstr "Manoore"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "wo"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -559,7 +559,7 @@ msgstr ""
 "palanteer bi, te bës butoŋ yi ñu méngool. Fàttalikuléen taxawaayi baaraam yi "
 "ci arafukaay gi ( yëral ubbite gi ci jël lu mag li)."
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -569,7 +569,7 @@ msgstr ""
 "buton (Espace), (Shift) ak (Enter) defuñu leen ci ndaxte dañu leen di "
 "jëfandikoo saa su nekk."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -577,7 +577,7 @@ msgstr ""
 "Sàppe bi ci topp day wone xeetu araf yi méngook butoŋ yi ngeen di bës. Su ko "
 "soxlaa, mbind mi dafay soppeeku su ko defee mu wone ndigal yu bees."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -587,7 +587,7 @@ msgstr ""
 "sukkandiku ci ay baat yu amul tekki, dañu jaxase ay araf, ay lim aki "
 "jëmm(symbol)"
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -596,7 +596,7 @@ msgstr ""
 " Ngir sukkandi ci kàddu ëmb baat dëgg ba tàggatu, demléen ca ñeenteelu "
 "tànneef gi ci jël lu mag li ( ci wàllu rattaxal)"
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -604,7 +604,7 @@ msgstr ""
 "Di ngéen gis ci njeextel jéemantu bu nekk seeni manoore, ak ay benn benni "
 "gis gis ngir jëmale léen kanam."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -612,7 +612,7 @@ msgstr ""
 "Bii jéemantu dafay nirook ñaareel biy wax lu jëm mën a soppiku. Wuutu gi : "
 "fii da ngéen fiy tàppe ay baat dëggantaan ci seenug làmmiñ "
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -622,7 +622,7 @@ msgstr ""
 "a tànn yeneen mbind ak ay baat yu ngeen bëgg a jëfandikoo. Cuq leen ci "
 "tànneef \"Yeneen\" (ci kow) te yokk ci dencukaay yi ëmb waxtaan yi."
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -630,7 +630,7 @@ msgstr ""
 "Li ñu gën a soxal ci jéemantu jii mooy gaawaay. Koon, dangeen war a tàppe nu "
 "mu gën a gaawe! Jommal leen ma!"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -642,7 +642,7 @@ msgstr ""
 "def ngéen jéemantu yi jiitu ni mu ware, waru léen a am jafe-jafe, ndaxte war "
 "ngéen a bind te du ngeen am benn gis-gis cimbind mi wi."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -657,7 +657,7 @@ msgstr ""
 "dootul nekk coono: kon léegi, mën ngéen a def seen xelaat yépp ci maanaa "
 "mbind wi."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -993,18 +993,18 @@ msgstr ""
 msgid "Date & Time"
 msgstr "Bés ak waxtu"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Palaasu butoŋ yi mel na ni mokk na!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1016,7 +1016,7 @@ msgstr ""
 " Demléen ci xeeti jéemantu yii: dëppale, \n"
 " Da ngéen di gën a def ay jéemantu yu ñeel jubaay, \n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

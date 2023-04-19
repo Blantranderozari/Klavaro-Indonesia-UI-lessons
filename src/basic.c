@@ -259,6 +259,7 @@ basic_draw_lesson ()
 	gint i, j, k, len;
 	gint idx, rnd;
 	gchar *ut8_tmp;
+	gchar *ut8_hack;
 	gunichar sentence[9 * 6 + 4];
 	gunichar char_pool[2*(N_LINES * 9 * 5)];
 	GtkTextBuffer *buf;
@@ -279,6 +280,16 @@ basic_draw_lesson ()
 				      "to generate a personal practice."
 				      " Press the editting button in the upper-right corner."), 
 				keyb_get_utf8_paragraph_symbol (), "\n", NULL);
+		ut8_hack = g_strstr_len (ut8_tmp, -1, "editting");
+		if (ut8_hack != NULL)
+		{
+			ut8_hack += 4;
+			while (*ut8_hack != '\0')
+			{
+				*ut8_hack = *(ut8_hack+1);
+				ut8_hack++;
+			}
+		}
 		gtk_text_buffer_insert_at_cursor (buf, ut8_tmp, -1);
 		gtk_text_buffer_insert_at_cursor (buf, ut8_tmp, -1);
 		gtk_text_buffer_insert_at_cursor (buf, ut8_tmp, -1);

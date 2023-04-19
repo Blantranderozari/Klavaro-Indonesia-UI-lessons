@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.01-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2017-04-01 14:30+0200\n"
 "Last-Translator: Abdorhman Ayman <abdorhman.ayman@protonmail.com>\n"
 "Language-Team: Arabic <(nothing)>\n"
@@ -543,11 +543,11 @@ msgid "Score"
 msgstr "الدرجة"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "ar"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -557,7 +557,7 @@ msgstr ""
 "يُركِّز تمرين اﻷساسيات على جعلك تقرأ ما أمامك ثم تكتبه بلوحة المفاتيح. تذكَّر أن "
 "تكونَ يداكَ في الموضع اﻷساسيّ (راجع المُقدِّمة)."
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -567,7 +567,7 @@ msgstr ""
 "مُوضَّحة بأعلى النافذة، علمًا أنَّ مفاتيح المسافة و Enter و Shift لن يكتبوا "
 "بالأعلى رغم اِستخدامهم كثيرًا."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -575,7 +575,7 @@ msgstr ""
 "الشريط أدناه (المكتوب فيه اِضغط أي مفتاح للبدء) سيعرض لك كل ما تكتبه، وسيعرض "
 "لك تعليمات عندما تحتاجها."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -584,33 +584,33 @@ msgstr ""
 "ستتمرَّن هنا على حفظ موقع كل مفتاح من خلال كتابة مفاتيح عشوائيّة لا معنى لها "
 "مخلوط معها أرقام ورموز."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
 "sentences, please use the fourth option of the main menu (about fluidness)."
 msgstr ""
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
 msgstr "بعد كل تمرين ستجد إحصائيات بخصوص أدائك ومعها تعليقات."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
 msgstr "هذا التمرين مشابه للسابق، مع اِختلاف أنَّ هنا كلمات مفردة ذات معنى."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
 "above and add files containing those texts."
 msgstr ""
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -618,7 +618,7 @@ msgstr ""
 "سيُركِّز هذا التمرين على السرعة، مُفترضٌ منكَ أن تكتب بسرعة وستجد البرنامج يُطري "
 "عليك عندما تستحق اﻹطراء!"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -629,7 +629,7 @@ msgstr ""
 "أثناء الكتابة، لذلك كانَ هدف التمرين السابق أن يغرسَ فيك القدرة على الكتابة "
 "بدون الفهم!"
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -642,7 +642,7 @@ msgstr ""
 "وجعلها رد فعل طبيعيّ مثل المشي والكلام، وبعد الاِنتهاء من تطويرها يمكنك أن "
 "تهتم بالفهم."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -974,18 +974,18 @@ msgstr ""
 msgid "Date & Time"
 msgstr "الوقت والتاريخ"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "يبدو أنك حفظت مواقع اﻷزرار."
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -996,7 +996,7 @@ msgstr ""
 "لقد أنهيت تمرين اﻷساسيات.\n"
 "إذهب إلى التمرين التالي.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

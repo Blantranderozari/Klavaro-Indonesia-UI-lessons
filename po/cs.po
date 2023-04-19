@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.01-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2022-11-24 19:17-0300\n"
 "PO-Revision-Date: 2015-02-06 06:11+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -541,11 +541,11 @@ msgid "Score"
 msgstr "Hodnocení"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:526 ../src/tutor.c:1762
+#: ../src/translation.c:524 ../src/tutor.c:1762
 msgid "en"
 msgstr "cs"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:611
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -556,7 +556,7 @@ msgstr ""
 "klávesy. Pamatujte na neustálé správné umístění prstů na klávesnici (návod "
 "naleznete v hlavní nabídce)."
 
-#: ../src/translation.c:617
+#: ../src/translation.c:615
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -566,7 +566,7 @@ msgstr ""
 "řádku. [Mezerník], [Shift] a [Enter] zobrazeny nejsou, neboť je jasné, že se "
 "používají velmi často."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:618
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -575,7 +575,7 @@ msgstr ""
 "nutné, zobrazí se zde nějaké informační sdělení týkající se činnosti, která "
 "je po vás požadována."
 
-#: ../src/translation.c:624
+#: ../src/translation.c:622
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -585,7 +585,7 @@ msgstr ""
 "K dispozici máte věty skládající se z nesmyslných slov obsahujících i "
 "některá čísla a symboly."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:625
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -595,7 +595,7 @@ msgstr ""
 "nezávislosti na jazyku a rozložení klávesnice. Pro cvičení psaní skutečných "
 "vět zkuste čtvrtou volbu v hlavní nabídce (rychlost psaní)."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:629
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -603,7 +603,7 @@ msgstr ""
 "Na konci každého cvičení se zobrazí krátká statistika o dosaženém výkonu "
 "spolu s nějakým příslušným komentářem."
 
-#: ../src/translation.c:635
+#: ../src/translation.c:633
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -611,7 +611,7 @@ msgstr ""
 "Toto cvičení je velmi podobné tomu druhému – přizpůsobení. Rozdíl spočívá ve "
 "psaní skutečných slov."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:636
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -621,7 +621,7 @@ msgstr ""
 "můžete dle libosti vybrat kterýkoliv jiný textový soubor. Kliknutím na volbu "
 "„Další“ můžete přidat soubor s texty."
 
-#: ../src/translation.c:642
+#: ../src/translation.c:640
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -629,7 +629,7 @@ msgstr ""
 "V tomto cvičení se zaměříte na rychlost. Takže budete muset psát skutečně "
 "rychle a za to vám bude upřímně lichoceno."
 
-#: ../src/translation.c:646
+#: ../src/translation.c:644
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -641,7 +641,7 @@ msgstr ""
 "Pokud jste prošli předchozími cvičeními, pak s tím zřejmě nebudete mít žádné "
 "problémy, neboť se musíte naučit psát bez interpretace a analyzování textu."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:648
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -656,7 +656,7 @@ msgstr ""
 "dosažení tohoto cíle, nebudete s psaním již více bojovat a budete schopni "
 "dávat pozor na skutečný smysl textu."
 
-#: ../src/translation.c:654
+#: ../src/translation.c:652
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -994,18 +994,18 @@ msgstr "Znak"
 msgid "Date & Time"
 msgstr "Datum a čas"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Zdá se, že jste se naučili rozmístění kláves!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1017,7 +1017,7 @@ msgstr ""
 " Nyní zkuste následující typ cvičení: přizpůsobení.\n"
 " Zde se bude cvičit zejména přesnost.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
