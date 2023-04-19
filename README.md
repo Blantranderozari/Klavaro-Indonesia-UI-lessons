@@ -1,15 +1,10 @@
 # Klavaro-Indonesia-Translation
-Program berlatih mengetik
+Klavaro is a typing tutor application and this is the version for Indonesian language.
+For **Indonesian** version of this README.md see _README.id.md_. There is also a more detail instruction in Bahasa Indonesia on [YOUTUBE](https://youtu.be/uUxak2vBh_8)
 
-For **English** version of this README.md see _README.en.md_
+## Libraries required
 
-Klavaro adalah aplikasi untuk berlatih ketrampilan mengetik dan ini adalah versi bahasa Indonesianya. Saat ini hanya baru ada versi Linux dan terbukti bisa berjalan di Ubuntu versi 18.04 (_Bionic Beaver_).
-
-Instruksi ini juga disertai video panduan YOUTUBE yang dibisa dilihat di [tautan ini](https://youtu.be/uUxak2vBh_8)
-
-## Instalasi library-library yang diperlukan
-
-Sebelum menginstalasi program ini periksa apakah library-library berikut sudah ada di komputer anda dengan menjalankan perintah berikut di terminal
+Before compile and linking the source code, check whether these libraries are installed on your system.  
 ```
 $ sudo apt update
 $ sudo apt install libgtk-3-dev
@@ -18,36 +13,26 @@ $ sudo apt install intltool
 $ sudo apt install libtool
 ```
 
-## Instalasi library gtkdatabox
+## Install gtkdatabox library
 
-Sementara untuk libgtkdatabox (https://gtkdatabox.sourceforge.io/), anda harus memastikan terlebih dahulu apakah library tersebut sudah terinstal  atau belum dan versinya masing-masing. Perlu dicatat bahwa versi terendah yang diperlukan adalah libgtkdatabox versi 1.0.0
-Untuk itu gunakan perintah berikut:
+Meanwhile for libgtkdatabox (https://gtkdatabox.sourceforge.io/), you have to ensure that it is installed with the right version. Klavaro requires at least libgtkdatabox version 1.0.0
+
+First use the following command:
 
 `$ sudo apt-cache policy libgtkdatabox-dev`
 
-dan perhatikan baris berikut
+and examine the output if libgtkdatabox-dev is installed with version greater or equal to 1.0.0. If this condition is satisfied go directly to Installing Klavaro below.
 
 ![image](https://user-images.githubusercontent.com/35718731/136917081-148f2a8b-945e-46b3-be81-8b7bd6638e5c.png)
 
-**Installed : (None)** artinya libgtkdatabox-dev belum terinstal di komputer anda
+**Installed : (None)** means that libgtkdatabox-dev is not installed in your system.
+**Candidate: 1:0.9.3.1-1** means there is only 1 candidate with version 0.9.3.1-1
 
-**Candidate: 1:0.9.3.1-1** artinya hanya ada 1 kandidat yang akan diinstal dengan versi 0.9.3.1-1
-
-Karena versi yang akan diinstall adalah 0.9.3.1-1 lebih rendah dari versi yang disyaratkan (1.0.0) maka kita perlu mengkompilasi library gtkdatabox langsung dari _source file_-nya.
-Sebaliknya bila versi yang akan diinstall sudah lebih besar atau sama dengan 1.0.0, anda cukup melanjutkan dengan perintah berikut:
-
-```
-$ sudo apt install libgtkdatabox-dev
-$ sudo ldconfig
-```
-
-Perintah-perintah berikut ini berlaku apabila versi yang diinstal < 1.0.0. 
-
-Buka browser (Firefox atau chrome) dan masukan link berikut https://sourceforge.net/projects/gtkdatabox/files/latest/download. Ekstrak file yang baru didownload _gtkdatabox-1.0.0.tar.gz_ dengan perintah berikut
+Here we have version 0.9.3.1-1 which below the required version. Therefore we need to download it directly from the source. Open your browser and get the source code from. https://sourceforge.net/projects/gtkdatabox/files/latest/download. Extract this file with:
 
 `$ tar xzvf gtkdatabox-1.0.0.tar.gz`
 
-dan instal libgtkdatabox dengan perintah-perintah berikut:
+and build the source code using GNU Make as shown below:
 ```
 $ cd gtkdatabox-1.0.0/
 $ ./configure
@@ -57,13 +42,13 @@ $ sudo ldconfig
 ```
  
 
-## Instalasi Klavaro
+## Installing Klavaro
 
-Unduh source file ke home directory anda dengan menggunakan perintah ini:
+Clone my repository using this command:
 
 `$ git clone https://github.com/Blantranderozari/Klavaro-Indonesia-Translation.git`
 
-Untuk menginstalasi program .
+... and go straightly build the source. 
 ```
 $ cd Klavaro-Indonesia-Translation
 $ ./configure
@@ -74,10 +59,10 @@ $ klavaro
 ```
 
 
-Dan tampilan ini yang akan muncul:
+You should see this window poping up:
 
 ![image](https://user-images.githubusercontent.com/35718731/135736567-0ef08ea5-b1fc-4d03-af9d-cfb898a69c15.png)
 
 
 
-Selamat anda telah berhasil menginstall klavaro! Silahkan mulai berlatih mengetik...
+Congratulation you have succeed building and installing Klavaro! Happy Typing...
