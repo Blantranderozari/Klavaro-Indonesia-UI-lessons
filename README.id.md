@@ -1,8 +1,6 @@
 # Klavaro-Indonesia-Translation
 Program berlatih mengetik
 
-For **English** version of this README.md see _README.en.md_
-
 Klavaro adalah aplikasi untuk berlatih ketrampilan mengetik dan ini adalah versi bahasa Indonesianya. Saat ini hanya baru ada versi Linux dan terbukti bisa berjalan di Ubuntu versi 18.04 (_Bionic Beaver_).
 
 Instruksi ini juga disertai video panduan YOUTUBE yang dibisa dilihat di [tautan ini](https://youtu.be/uUxak2vBh_8)
